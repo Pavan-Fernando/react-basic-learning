@@ -1,0 +1,16 @@
+ .navcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Dark background color */
+    padding: 1rem; /* Add appropriate padding */
+}
+
+.navcontent img {
+    height: 40px; /* Adjust the height of the logo */
+  }
+
+.navcontent div {
+    display: flex;
+    gap: 1rem; /* Space between menu links */
+  }
