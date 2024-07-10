@@ -1,8 +1,9 @@
 import BasicReact from "./components/BasicReact";
 import BodyContent from "./components/BodyContent/BodyContent";
 import HeaderContent from "./components/HeaderContent/HeaderContent";
-import TestUseEffect from "./components/Hooks/TestUseEffect/TestUseEffect";
-import TestUseState from "./components/Hooks/TestUseState/TestUseState";
+import TestUseEffect from "./hooks/TestUseEffect/TestUseEffect";
+import TestUseRef from "./hooks/TestUseRef";
+import TestUseState from "./hooks/TestUseState/TestUseState";
 // import './App.css'
 
 function App() {
@@ -29,7 +30,10 @@ function App() {
         {/* <TestUseState /> */}
 
         {/* useEffect */}
-        <TestUseEffect />
+        {/* <TestUseEffect /> */}
+
+        {/* useRef  */}
+        <TestUseRef />
 
     </div>
   )
