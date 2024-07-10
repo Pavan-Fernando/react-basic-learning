@@ -1,6 +1,7 @@
 import BasicReact from "./components/BasicReact";
 import BodyContent from "./components/BodyContent/BodyContent";
 import HeaderContent from "./components/HeaderContent/HeaderContent";
+import TestUseEffect from "./components/Hooks/TestUseEffect/TestUseEffect";
 import TestUseState from "./components/Hooks/TestUseState/TestUseState";
 // import './App.css'
 
@@ -25,7 +26,10 @@ function App() {
 
         {/* //React Hooks */}
         {/* //UseState */}
-        <TestUseState />
+        {/* <TestUseState /> */}
+
+        {/* useEffect */}
+        <TestUseEffect />
 
     </div>
   )
